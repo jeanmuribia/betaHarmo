@@ -1,0 +1,16 @@
+#adminList {
+    list-style-type: none;
+}
+
+.information {
+    cursor: pointer;
+}
+
+.important {
+    color: orange;
+    font-style: italic;
+}
+
+.good {
+    color: green;
+}

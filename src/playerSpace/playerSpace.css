@@ -1,0 +1,54 @@
+#allSections {
+    display: flex;
+}
+
+#characterSection {
+    flex-grow: 1;
+}
+
+#sessionSection {
+    flex-grow: 1;
+}
+
+#allSheetsPlayer {
+    display: flex;
+    align-items: center;
+}
+
+#allSheetsPlayer button {
+    margin: 0.5em;
+}
+
+.sheetsList {
+    width: 120px;
+    height: 120px;
+    font-size: 15px;
+    padding: 1em;
+    border: solid black 1px;
+    border-radius: 50%;
+    background-color: darkgray;
+    line-height: 80px;
+}
+
+.sheetsList:hover {
+    background-color: grey;
+}
+
+#allSessionsGM {
+    display: flex;
+    align-items: center;
+}
+
+#allSessionsGM button {
+    margin: 0.5em;
+}
+
+#modalNewSession {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#OU, #rejoinSession, #formCreationSession {
+    margin: 1em;
+}

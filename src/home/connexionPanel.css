@@ -1,0 +1,68 @@
+
+
+#popupConnexionImage {
+    width: 25vw;
+    height: auto;
+}
+
+#newFormAuth {
+    background-image: url('../images/Pop-up\ 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20em;
+    height: auto;
+    z-index: 5;
+    padding: 25px;
+    }
+
+#titleAuthForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowDeco {
+    height: 1em;
+    padding: 1em;
+}
+
+#authFormText {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #233463;
+}
+
+#bottomAuthForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 0.8em;
+}
+
+#linkNewAccount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resetUnderline:hover {
+    border-bottom: 2px solid #212122;
+}
+
+#toAccount {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#toAccount:hover {
+    border-bottom: 2px solid #212122;
+}

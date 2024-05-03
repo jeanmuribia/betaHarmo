@@ -1,0 +1,33 @@
+#characterSpace {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columnSheet {
+    flex-grow: 1;
+    max-width: 20%;
+    background-color: darkgray;
+    border: solid black 1px;
+    min-height: 500px;
+}
+
+#columnCrud {
+    padding: 0.7em;
+    margin-left: 0.5em;
+}
+
+#columnPlay {
+    padding: 0.7em;
+    margin-right: 0.5em;
+}
+
+.sheetVisualElement {
+    background-color: white;
+    border: solid black 5px;
+    margin: 2em;
+    padding: 0.5em;
+}
+
+#characterSheetVisual {
+    flex-grow: 3;
+}

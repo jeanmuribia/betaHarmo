@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: 'Righteous';
+  src: url('../fonts/RIGHTEOUS/Righteous.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.basicContainer {
+  margin-left: 10px;
+}
+
+.cornerLeftTitle {
+    font-family: 'Righteous';
+    font-size: 3em;
+    margin : 0 1em;
+    color: #FAF4E7;
+}
+
+.homeBackground {
+  background-image: url('../images/diceLauncherBackground.png.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Assure que l'image est centrée */
+  min-height: 100vh; /* Assure que le conteneur prend au moins la hauteur de la fenêtre */
+}
+
+.blueHarmonistereTitle {
+  font-family: 'Righteous';
+  color: #5EA7CE;
+  text-align: center;
+  font-size: 3em;
+  position: relative;
+  top: 1.2em;
+}
+
+.buttonHarmonistere {
+    background: #77B7C9 0% 0% no-repeat padding-box;
+    border-radius: 35px;
+    color: #233463;
+    font-weight: bold;
+    min-width: 81%;
+    margin-top: 1.5em;
+    margin-bottom: 5px;
+    padding: 1em 5.8em;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buttonHarmonistere:hover {
+    background: #233463;
+    color: #FEF2E2;
+}
+
+.inputHarmonistere {
+    border: none;
+    border-bottom: 1px solid rgba(35, 52, 99, 0.35);
+    color: rgba(35, 52, 99, 0.59);
+    background-color: #FAF4E7;
+    padding: 2px 0px;
+    margin: 0.7em 1em;
+    min-width: 80%;
+    font-size: 0.8em;
+}
+
+.optionHarmonistere {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.optionHarmonistere:focus {
+    background-color: #FAF4E7;
+}
+
+.inputSelectHarmonistere {
+    border: none;
+    border-bottom: 1px solid rgba(35, 52, 99, 1);
+    color: rgba(35, 52, 99, 0.59);
+    background-color: #FAF4E7;
+    padding: 2px 0px;
+    margin: 1em 0;
+    min-width: 80%;
+    font-size: 0.8em;
+}
+
+.inputHarmonistere:hover {
+    border-bottom: 2px solid rgba(35, 52, 99, 1);;
+}
+
+.inputHarmonistere:focus {
+    outline: none;
+}
+
+.diceLauncherBackground {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/Pop-up 1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 660px;
+  height: 709px;
+}
+
+.dices {
+  
+}
+
+.diceButton {
+    display: inline-block;
+    width: 7em; /* Largeur des boutons */
+    height: 4em; /* Hauteur des boutons */
+    border-radius: 20px; /* Bord arrondi */
+    text-align: center;
+    font-weight: 700;
+    font-size: 1em; /* Taille de la police */
+    letter-spacing: 0.03em; /* Espacement entre les lettres */
+    color: #233463;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 1em; /* Espacement entre les boutons */
+    cursor: pointer;
+}
+
+
+
+.centerComponent {
+    flex-grow: 1;
+    position: relative;
+    top: 1.2em;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.centerComponent > * {
+    margin: 1.7em; /* Ajuster la marge entre les éléments */
+}
+  
+.selectedDice {
+    display: flex;
+    align-items: center; 
+}
+
+.selectedDice img {
+  width: 4em;
+  margin-right: 10px; 
+}
+
+.rollReset{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.rollResetButton {
+    display: flex;
+    align-items: center;
+    background-color: #A0D6E5 ;
+    border-radius: 35px;
+    color: #233463;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    margin : 0 1em;
+    padding: 0.5em 1.5em;
+    min-height: 3.5em;
+    border: none;
+    cursor: pointer;
+    /* text-align: center; */
+  }
+
+.diceButton:hover, .rollResetButton:hover, .selectedDiceIcon:hover{
+    filter: brightness(0.8);
+    transform: scale(1.1); 
+}
+.successFailureDiv {
+  background-color: #fcfbdc;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: start; /* Garantit que le texte reste toujours à la même place */
+  min-height: 161px;
+  min-width: 274px;
+  margin-top: 0.8em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.successFailureText {
+  font-size: 1em;
+  font-weight: light;
+  color: #233463;
+  margin: 1em;
+}
+
+.successIcon, .neutralIcon, .failureIcon {
+  width: 3.7em;
+  margin: 1em;
+  margin-bottom: 0.7em;
+
+}
+
+
+.navbarHarmonistere {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    display: flex;
+    position: absolute;
+    color: #FAF4E7;
+}
+
+.navbarLiHarmonistere {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding: 1em;
+    font-size: 1em;
+}
+
+.navbarLiHarmonistere:active {
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width:768px) {
+
+   .navbarHarmonistere {
+        top: 0;
+        right: 50%;
+        left: auto;
+        transform: translateX(+65%);
+        flex-wrap: wrap;
+        width: 450px;
+    } 
+   
+    .navbarLiHarmonistere {
+        padding: 0.1em 0.6em 0 0.6em;
+        white-space: nowrap;
+    }
+
+    .cornerLeftTitle {
+      font-size: 2em;
+      margin: 1.5em auto 0em auto; 
+      text-align: center; 
+      height: max-content;
+  }
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.1em;
+    }
+
+    .homeBackground {
+      background-image: none; /* Remplace l'image de fond par une couleur */
+      background-color: #FFA7A7;
+      background-repeat: repeat-y; /* La couleur reste fixe lors du défilement */
+      min-height: 100vh; /* Assure que le conteneur prend au moins la hauteur de la fenêtre */
+      overflow-y: hidden; /* Empêche le défilement vertical */
+    }
+
+    .diceLauncherBackground{
+      width: 100vw; 
+    }
+
+    .blueHarmonistereTitle {
+      font-size: 2.5em;
+      top: 0.5em;
+    }
+   
+    .dices {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 1em;
+    }
+  
+    .diceButton {
+      width: calc(50% - 1em); /* Ajustez la largeur des dés selon vos besoins */
+      height: ; /* Ajustez la hauteur des dés selon vos besoins */
+      margin: 0.5em;
+    }
+
+    .selectedDice {
+      margin: 0em;
+    }
+    .selectedDice img {
+      width: 3em; /* Ajustez la taille des images à l'intérieur de .selectedDice */
+      margin-right: 0.5em; /* Ajoutez une marge à droite si nécessaire */
+    }
+
+    .rollReset {
+      flex-direction: column;
+      margin-top: 1em;
+      margin-bottom: 0.3em;
+    }
+
+    .rollResetButton {
+      width: 16em;
+      margin: 0.5em;
+      align-items: center;
+      justify-content: center;
+    }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width:1324px) {
+
+    .navbarHarmonistere {
+        top: 0.1em;
+        right: 0;
+    }
+
+    .navbarLiHarmonistere {
+        padding-top: 0.2em;
+    }
+}
+
+@media only screen and (min-width: 1324px) {
+
+    .navbarHarmonistere {
+        top: 1%;
+        right: 3%;
+    }
+
+    .navbarLiHarmonistere {
+        padding: 1em;
+    }
+}
+
+@media only screen and (min-height: 0px) and (max-height:580px) {
+
+    .navbarLiHarmonistere {
+        display: none;
+    }
+}
+
+@media only screen and (min-height: 580px) and (max-height:570px) and (min-width:768px) {
+
+
+
+}
