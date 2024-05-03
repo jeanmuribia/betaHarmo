@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/betaHarmo/static/css/main.fe733661.css",
-    "main.js": "/betaHarmo/static/js/main.6859b7d1.js",
+    "main.js": "/betaHarmo/static/js/main.330529dd.js",
     "static/js/453.0f882cee.chunk.js": "/betaHarmo/static/js/453.0f882cee.chunk.js",
     "static/media/imageHome.png": "/betaHarmo/static/media/imageHome.ec684226204a7f9a2e35.png",
     "static/media/Righteous.ttf": "/betaHarmo/static/media/Righteous.8c8a7696af70490b4b68.ttf",
@@ -22,11 +22,11 @@
     "static/media/dMalussvg.svg": "/betaHarmo/static/media/dMalussvg.bd5623e8cd789ee0921b6bc2f0b189ca.svg",
     "static/media/dNeutresvg.svg": "/betaHarmo/static/media/dNeutresvg.633a5ac3bcb636b8ad7ce07e014d92fc.svg",
     "main.fe733661.css.map": "/betaHarmo/static/css/main.fe733661.css.map",
-    "main.6859b7d1.js.map": "/betaHarmo/static/js/main.6859b7d1.js.map",
+    "main.330529dd.js.map": "/betaHarmo/static/js/main.330529dd.js.map",
     "453.0f882cee.chunk.js.map": "/betaHarmo/static/js/453.0f882cee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe733661.css",
-    "static/js/main.6859b7d1.js"
+    "static/js/main.330529dd.js"
   ]
 }
